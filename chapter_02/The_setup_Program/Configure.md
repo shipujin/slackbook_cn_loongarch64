@@ -2,17 +2,11 @@
 
 一旦所有的软件包都安装完就快接近结束了。在这一步，Slackware 会让你对新的操作系统进行配置。大多数都是可选的，不过大多数用户都需要在这里设置某些东西。取决于你安装的软件包，你可能看到的配置选项和这里不同，我们会包含一些重要的讲。
 
-首先可能会让你制作一个启动盘。过去一般使用 1.44MB 的软盘，但是如今 Linux 内核对软盘来说太大了，所以 Slackware 提供制作一个 USB 启动盘。当然这也需要你的计算机支持从 USB 启动。如果你并不打算使用 LILO 或者其他引导方式，你应该考虑制作一个 USB 启动盘。请注意这会清除 USB 上的数据。
+LoongArch Slackware 是使用 GRUB2 ，未使用 LILO，所以在 `INSTALL ELILO` 里选择 `skip   Do not install ELILO`
 
-![](../../png/use-boot-stick.png)
+> 译者注：LILO 只是可选的引导程序，Slackware 在“A”（基本系统）软件包组中提供了 GRUB2。
 
-LILO 用于引导 Linux 内核和连接 initrd 或是 root 文件系统。没有这个，Slackware 系统可能不会成功引导。Slackware 在这里提供一些选项。“simple”是自动配置 LILO。如果你并不信任这个方法或者像详细地看一下如何配置 LILO，可以选择“expert”。
-
-LILO 是 Slackware 系统很重要的一部分，所以整个第三章就是在讲这个。如果你对 LILO 不理解可以先看第三章。
-
-![](../../png/setup-lilo.png)
-
-> 译者注：LILO 只是可选的引导程序，Slackware 在“A”（基本系统）软件包组中同样提供了 GRUB2。
+![](../../png/setup-configure-install-elilo.png)
 
 下面会让你配置并激活控制台鼠标用于图形化桌面。通过激活控制台鼠标可以方便地在 Slackware 的终端进行复制和粘贴操作。大部分用户都从前三个选项中进行选择。
 
