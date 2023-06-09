@@ -11,15 +11,15 @@
 
 你可以在 [这里][id_changes] 查看该文档的修订历史。
 
-[id_changes]: https://github.com/slackwarecn/slackbook_cn/blob/master/CHANGES.md "查看修订历史"
+[id_changes]: https://github.com/slackwarecn/slackbook_cn_loongarch64/blob/master/CHANGES.md "查看修订历史"
 
 ### 获取文档
 
 - [在线阅读][id_online]
 - [发布页面][id_releases]
 
-[id_online]: https://slackwarecn.gitbook.io/slackbook_cn "阅读在线版本"
-[id_releases]: https://github.com/slackwarecn/slackbook_cn/releases "查看已发布文档"
+[id_online]: https://slackwarecn.gitbook.io/slackbook_cn_loongarch64 "阅读在线版本"
+[id_releases]: https://github.com/slackwarecn/slackbook_cn_loongarch64/releases "查看已发布文档"
 
 ### 本地编译
 
